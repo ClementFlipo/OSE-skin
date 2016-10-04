@@ -41,9 +41,16 @@ $wfexploreCategories = array (
         'Type' => array (
                 'Design' => 'Design',
                 'Planning' => 'Planning',
-				'Prototype' => 'Prototype',
-				'Almost done' => 'Almost done',
-				'Full release' => 'Full release',
+		'Prototype' => 'Prototype',
+		'Almost done' => 'Almost done',
+		'Full release' => 'Full release',
+        ),
+        'Machines' => array (
+                '3D Printer' => '3D Printer',
+                'MicroHouse' => 'MicroHouse',
+                'Tractor' => 'Tractor',
+                'CEB Press' => 'CEB Press',
+                'Other GVCS machines' => 'Other GVCS machines',
         ),
         'area' => array (
                 'Habitat' => 'Habitat',
@@ -52,12 +59,5 @@ $wfexploreCategories = array (
                 'Energy' => 'Energy',
                 'Materials' => 'Materials',
                 'Transportation' => 'Transportation',
-        ),
-        'Difficulty' => array (
-                'Very easy' => 'Very easy',
-                'Easy' => 'Easy',
-                'Medium' => 'Medium',
-                'Hard' => 'Hard',
-                'Very hard' => 'Very hard'
         )
 );
